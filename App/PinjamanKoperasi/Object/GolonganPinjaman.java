@@ -1,4 +1,4 @@
-package App.PinjamanKoperasi.DTO;
+package App.PinjamanKoperasi.Object;
 
 public class GolonganPinjaman {
     public String nama;

@@ -1,6 +1,6 @@
 package App.PinjamanKoperasi.Karyawan;
 
-import App.PinjamanKoperasi.DTO.GolonganPinjaman;
+import App.PinjamanKoperasi.Object.GolonganPinjaman;
 import App.PinjamanKoperasi.Helper;
 import App.PinjamanKoperasi.Karyawan.Factory.Karyawan;
 import App.PinjamanKoperasi.Karyawan.Factory.KaryawanInterface;

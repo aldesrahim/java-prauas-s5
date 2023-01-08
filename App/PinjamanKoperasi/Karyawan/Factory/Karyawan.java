@@ -1,6 +1,6 @@
 package App.PinjamanKoperasi.Karyawan.Factory;
 
-import App.PinjamanKoperasi.DTO.GolonganPinjaman;
+import App.PinjamanKoperasi.Object.GolonganPinjaman;
 
 import java.util.ArrayList;
 import java.util.Scanner;
