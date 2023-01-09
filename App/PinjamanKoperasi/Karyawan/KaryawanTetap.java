@@ -29,6 +29,10 @@ public class KaryawanTetap extends Karyawan implements KaryawanInterface {
         this.inputBulanAngsuran();
     }
 
+    public GolonganPinjaman getGolonganPinjaman() {
+        return this.golonganPinjaman;
+    }
+
     @Override
     public void tampilHasilKalkulasi() {
         this.golonganPinjaman.calculate(BUNGA_PERSEN, this.bulanAngsuran);

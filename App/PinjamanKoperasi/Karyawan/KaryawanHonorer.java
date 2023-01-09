@@ -14,6 +14,10 @@ public class KaryawanHonorer extends Karyawan implements KaryawanInterface {
         this.golonganPinjamanList.add(new GolonganPinjaman("Golongan C", 10000000.0));
     }
 
+    public GolonganPinjaman getGolonganPinjaman() {
+        return this.golonganPinjaman;
+    }
+
     @Override
     public void tampilGolonganList() {
         System.out.print("\n");
